@@ -8,3 +8,4 @@
 - [duolahypercho/andrej-karpathy-skills](https://github.com/duolahypercho/andrej-karpathy-skills)
 - [obra/superpowers](https://github.com/obra/superpowers)
 - [kevintsengtw/dotnet-testing Agent Orchestration — Lite](https://github.com/kevintsengtw/dotnet-testing-agent-orchestration-claude-lite)
+- [larashero3-dotcom/lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone)
