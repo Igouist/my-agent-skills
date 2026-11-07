@@ -9,3 +9,4 @@
 - [obra/superpowers](https://github.com/obra/superpowers)
 - [kevintsengtw/dotnet-testing Agent Orchestration — Lite](https://github.com/kevintsengtw/dotnet-testing-agent-orchestration-claude-lite)
 - [larashero3-dotcom/lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone)
+- [AllanYiin/Amon — skill-creator-advanced](https://github.com/AllanYiin/Amon/tree/main/src/amon/resources/skills/skill-creator-advanced)
