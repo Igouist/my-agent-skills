@@ -1,5 +1,5 @@
 ---
-name: lieflat-less-ai-tone
+name: lieflat-less-ai-tone-zh
 description: 依 SKILL.md 明確列出的規則，識別並改寫寫作中的 AI 痕跡。只能處理清單內的問題；未命中規則的文字必須原樣保留，也不能改變文章框架。適用於寫作完成後的成稿清理。 Remove AI writing tells using an explicit whitelist of rules; leaves unmatched text untouched.
 ---
 
