@@ -1,0 +1,5 @@
+interface:
+  display_name: "Answer Me with HTML"
+  short_description: "Turn an answer into a one-page visual HTML explainer"
+policy:
+  allow_implicit_invocation: false
