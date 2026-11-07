@@ -1,0 +1,13 @@
+#!/bin/sh
+# commit 時自動把 .agents/skills 同步到 .claude/skills 並加入這次 commit。
+# 啟用方式（每個 clone 一次）：git config core.hooksPath .githooks
+set -eu
+
+ROOT=$(git rev-parse --show-toplevel)
+
+# 只有這次 commit 動到 .agents/skills，或兩邊已經不一致時才同步
+if git diff --cached --name-only | grep -q '^\.agents/skills/' \
+  || ! "$ROOT/scripts/sync-skills.sh" --check >/dev/null 2>&1; then
+  "$ROOT/scripts/sync-skills.sh"
+  git add -A "$ROOT/.claude/skills"
+fi
