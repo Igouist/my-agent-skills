@@ -16,6 +16,8 @@
 ### 維護
 
 - `.agents/skills/` 是正本，只改這份；`.claude/skills/` 是同步產生的，手動修改會被覆蓋
+- 和 Claude Code 內建指令撞名的 Skill，只在 `.claude/skills/` 改名，其他 Skill 裡的引用也會一併替換（清單在腳本的 `RENAMES`）：
+  - `code-review` → `code-review-matt`
 - 同步：`scripts/sync-skills.sh`；只檢查：`scripts/sync-skills.sh --check`
 - 啟用 pre-commit hook 後，commit 時會自動同步並加入 commit（每個 Clone 執行一次）：`git config core.hooksPath .githooks`
 
