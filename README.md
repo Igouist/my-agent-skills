@@ -33,3 +33,4 @@
 - [larashero3-dotcom/lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone)
 - [AllanYiin/Amon — skill-creator-advanced](https://github.com/AllanYiin/Amon/tree/main/src/amon/resources/skills/skill-creator-advanced)
 - [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html)
+- [dotnet/skills](https://github.com/dotnet/skills)（只收 dotnet、dotnet-data、dotnet-aspnetcore、dotnet-upgrade、dotnet-nuget 中的部分 Skill）
